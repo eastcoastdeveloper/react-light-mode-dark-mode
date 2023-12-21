@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+/* ------------------ */
+header {
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+button {
+  border-radius: 4px;
+  padding: 2px 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+main {
+  transition: all 0.25s;
+  display: flex;
+  height: calc(100% - 40px);
+}
+
+main p {
+  margin: auto;
+}
